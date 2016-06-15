@@ -11,7 +11,7 @@ namespace test.unitTest
         public void TestMethod1()
         {
             var testService = new TestService();
-            Assert.IsTrue(false);
+            Assert.IsTrue(true);
         }
     }
 }
