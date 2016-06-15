@@ -12,6 +12,7 @@ namespace Test.Api.Controllers
     {
         public dynamic Get()
         {
+            string x = "急啊急啊";
             var testService = new TestService();
             return new
             {
