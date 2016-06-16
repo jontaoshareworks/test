@@ -19,5 +19,10 @@ namespace Test.Api.Controllers
                 Message = DateTime.Now
             };
         }
+        public void WriteToFile(string str, string fileName)
+        {
+            throw new Exception($"File {fileName} directory invalidate.");
+        }
+
     }
 }
