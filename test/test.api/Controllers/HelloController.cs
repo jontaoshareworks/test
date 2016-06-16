@@ -24,5 +24,16 @@ namespace Test.Api.Controllers
             throw new Exception($"File {fileName} directory invalidate.");
         }
 
+        /// <summary>
+        /// Gets the string value for a given Enum's Value.
+        /// This will only work if you assign the StringValue
+        /// attribute to the items in your enum.
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public string GetStringValue(string value)
+        {
+            return value?.ToUpper().Trim();
+        }
     }
 }
